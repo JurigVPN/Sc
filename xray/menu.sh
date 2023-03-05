@@ -71,8 +71,8 @@ echo -e "□ 🔰\e[32;1mCurrent Domain\e[0m    : $( cat /etc/xray/domain )"
 echo -e "□ 🔰\e[32;1mCurrent Isp Name\e[0m  : $ISP"
 echo -e "□ 🔰\e[32;1mServer IP\e[0m         : ${IP}"
 echo -e "□ 🔰\e[32;1mTime Reboot VPS\e[0m   : 00:00 ( Jam 12 Malam )"
-echo -e "□ 🔰\e[32;1mLicense SC Limit\e[0m  : Lifetime"
-echo -e "□ 🔰\e[32;1mAutoScript By Dev\e[0m : Bhoikfost Yahya"
+echo -e "□ 🔰\e[32;1mLicense SC Limit\e[0m  : 01-01-2045"
+echo -e "□ 🔰\e[32;1mAutoScript By Dev\e[0m : JurigVPN"
 
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m             ⇱ STATUS LAYANAN ⇲                                  \E[0m"
@@ -84,46 +84,46 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m              ⇱ MENU LAYANAN ⇲                                   \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e " [${GREEN}01${NC}]${RED} • ${NC}Membuat Akun Trojan  $NC"
-echo -e " [${GREEN}02${NC}]${RED} • ${NC}Menghapus Akun Trojan $NC"  
-echo -e " [${GREEN}03${NC}]${RED} • ${NC}Merenew Akun Trojan$NC"  
-echo -e " [${GREEN}04${NC}]${RED} • ${NC}Cek Akun Trojan$NC"
+echo -e " [${GREEN}01${NC}]${RED} • ${NC}Membuat akun vmess $NC"
+echo -e " [${GREEN}02${NC}]${RED} • ${NC}Menghapus akun vmess $NC"
+echo -e " [${GREEN}03${NC}]${RED} • ${NC}Merenew Akun vmess $NC"
+echo -e " [${GREEN}04${NC}]${RED} • ${NC}Cek Akun vmess $NC"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e " [${GREEN}05${NC}]${RED} • ${NC}Membuat Akun vless $NC"  
 echo -e " [${GREEN}06${NC}]${RED} • ${NC}Menghapus Akun vless $NC"
 echo -e " [${GREEN}07${NC}]${RED} • ${NC}Merenew Akun vless $NC"
 echo -e " [${GREEN}08${NC}]${RED} • ${NC}Cek Akun vless $NC"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e " [${GREEN}09${NC}]${RED} • ${NC}Membuat akun vmess $NC"
-echo -e " [${GREEN}10${NC}]${RED} • ${NC}Menghapus akun vmess $NC"
-echo -e " [${GREEN}11${NC}]${RED} • ${NC}Merenew Akun vmess $NC"
-echo -e " [${GREEN}12${NC}]${RED} • ${NC}Cek Akun vmess $NC"
+echo -e " [${GREEN}09${NC}]${RED} • ${NC}Membuat Akun Trojan  $NC"
+echo -e " [${GREEN}10${NC}]${RED} • ${NC}Menghapus Akun Trojan $NC"  
+echo -e " [${GREEN}11${NC}]${RED} • ${NC}Merenew Akun Trojan$NC"  
+echo -e " [${GREEN}12${NC}]${RED} • ${NC}Cek Akun Trojan$NC"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e " [${GREEN}13${NC}]${RED} • ${NC}Test kecepatan server $NC"
 echo -e " [${GREEN}14${NC}]${RED} • ${NC}Reboot server $NC"
 echo -e ""
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m              ⇱ XRAY-VPN OFFICIAL ⇲                              \E[0m"
+echo -e "\E[44;1;39m              ⇱ XRAY BY JURIGVPN ⇲                              \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e ""
 
 read -p "Select From Options [ 1 - 14 ] : " menu
 case $menu in
-1)
+9)
 clear
 add-tr
 ;;
-2)
+10)
 clear
 del-tr
 ;;
-3)
+11)
 clear
 renew-tr
 ;;
-4)
+12)
 clear
 cek-tr
 ;;
@@ -143,19 +143,19 @@ renew-vless
 clear
 cek-vless
 ;;
-9)
+1)
 clear
 add-ws
 ;;
-10)
+2)
 clear
 del-ws
 ;;
-11)
+3)
 clear
 renew-ws
 ;;
-12)
+4)
 clear
 cek-ws
 ;;
