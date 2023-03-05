@@ -70,17 +70,13 @@ fi
 fi
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green ______ ______       ___________ ________            _____  $NC"   
-echo -e "$green ___  /____  /__________(_)__  /____  __/______________  /_ $NC"  
-echo -e "$green __  __ \_  __ \  __ \_  /__  //_/_  /_ _  __ \_  ___/  __/ $NC"  
-echo -e "$green _  /_/ /  / / / /_/ /  / _   <  _  __/ / /_/ /(__  )/ /_   $NC" 
-echo -e "$green /_ ___//_/ /_/\____//_/  /_/|_| /_/    \____//____/ \__/   $NC"                                                    
-echo -e "$green              ______                                        $NC" 
-echo -e "$green _____  _______ ___  /______  _______ _                     $NC"   
-echo -e "$green __  / / /  __  /_  __ \_  / / /  __  /                     $NC"  
-echo -e "$green _  /_/ // /_/ /_  / / /  /_/ // /_/ /                      $NC"   
-echo -e "$green _\__  / \__ _/ /_/ /_/_\__  / \__ _/                       $NC"   
-echo -e "$green /____/                /____/                               $NC"   
+echo -e "$green         __           _      _    ______  _   __		  $NC"
+echo -e "$green       / /_  _______(_)___ | |  / / __ \/ | / /		  $NC"
+echo -e "$green  __  / / / / / ___/ / __ `/ | / / /_/ /  |/ / 		  $NC"
+echo -e "$green / /_/ / /_/ / /  / / /_/ /| |/ / ____/ /|  /  		  $NC"
+echo -e "$green \____/\__,_/_/  /_/\__, / |___/_/   /_/ |_/   		  $NC"
+echo -e "$green                   /____/                      		  $NC"
+echo -e "$green  							  $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green              FREE AUTOSCRIPT VPS                          $NC"
 echo -e "$green             NO LICENCE USER SETUP                         $NC"
@@ -112,8 +108,8 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "[ ${green}SCRIPT${NC} ] free no licence (lifetime) "
 sleep 2
 clear
-wget https://raw.githubusercontent.com/rullpqh/lite/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/rullpqh/lite/main/file/bbr.sh chmod +x bbr.sh && sed -i -e 's/\r$//' bbr.sh && screen -S bbr ./bbr.sh
+wget https://raw.githubusercontent.com/JurigVPN/Sc/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/JurigVPN/Sc/main/file/bbr.sh chmod +x bbr.sh && sed -i -e 's/\r$//' bbr.sh && screen -S bbr ./bbr.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -152,7 +148,7 @@ echo "   - Nginx                   : 81" | tee -a log-install.txt
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "=========-[ Script Created By Bhoikfost Yahya ]-=========="
+echo "=========-[ Script Created By JurigVPN ]-=========="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
